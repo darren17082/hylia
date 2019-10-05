@@ -8,12 +8,20 @@ tags:
 ---
 # My Work Notes
 
+## RUNNER CATEGORY VISION:
+
+- 
+
 
 ## Mac Stadium
 
 - MacStadium offers enterprise-scale Mac private clouds as well as individual dedicated Mac minis.
 - Monday September 30 2019: Note from Joshua to Jonathan at Mac Stadium that he would like to make progress on the pricing discussion.
 - Tuesday October 1 2019: reached out to Jonathan at ARM to schedule a call.
+- Thursday October 3 2019: I met with the folks at MacStadium. They are ready with the plug-in for GitLab so now need someone on the GitLAb side to partner with them on testing. Task #2 - need to work on GitLab go to market strategy.
+- Current customers are happy with the static version but the goal is to release an ephemeral version.
+- Phase 1 - get shared runners up and running on GitLab.com
+- Phase 11 - get the offering in place 
 
 
 ## ARM
@@ -21,7 +29,6 @@ tags:
 
 - Arm research team has been using GitLab extensively for internal projects, please see couple of development scenarios in the attached slide. We plan to write a technical blog on this work which will be promoted during TechCon event.
 - Arm is a big contributor/member of CNCF, the fluentd project from Arm Treasure Data. We partner strategically with Packet.com whose infrastructure is used for CNCF.CI projects which is based on GitLab.
-
 
 
 From a product support standpoint, we are looking for three things (short-term to long-term):
@@ -46,4 +53,14 @@ From a product support standpoint, we are looking for three things (short-term t
 - Since we recently added few changes in the Dockerfiles, the branch needs to be rebased on top of current
 - "When we will upgrade from Go 1.8 and when we will provide missing binaries for Git LFS and dumb-init, changes from tm/feature/arm64-support-go1.9 should be enough to get this merged."
 
+
+## 1x1 Coffee chats
+
+### Lee Matos
+
+- Rule of thumb is > 10 Zendesk links = issue is trending up
+- Also want to consider how quickly links are piling up.
+- Support structure is comprised of solutions + platform
+- Goal: Kubernetes runner as best in class.
+- Goal: Dotcom - pool of auto-scaling Macrunners for .com
 
